@@ -1,4 +1,4 @@
-# 🍽 OneClickEats.com
+#  OneClickEats.com
 
 Welcome to OneClickEats, your go-to platform for discovering delicious meals delivered right to your door. Our easy-to-use service offers a variety of cuisines, fast delivery, and seamless ordering. Join our community of happy customers today!
 
