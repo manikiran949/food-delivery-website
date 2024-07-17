@@ -1,0 +1,218 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    opacity: 0.8;
+    background-color: black;
+    top: 0px;
+}
+
+/* Navigation Bar : logo and Image */
+#logo{
+    margin: 6px 24px;
+}
+
+#logo img{
+    margin: 4px 4px;
+    width: 80px;
+    height: auto;
+}
+
+/* Navigation Bar : list styling*/
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 2px 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 180px;
+    height: 410px;
+    justify-content: center;
+    align-items: center;
+    background: url('food-website-background.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+/* body{
+    background: url('food-website-background.jpg') no-repeat center fixed;
+    background-size: cover;
+} */
+
+#home h1{
+    color: black;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Services section */
+
+/* #services-container{
+    background: url('food-background-2.jpg') no-repeat center fixed;
+    background-size: cover;
+} */
+#services{
+    display: flex;
+    margin: 34px;
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 20px;
+    margin: 12px 5px;
+    border-radius: 10px;
+    background-color: rgb(241, 237, 237);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#services .box img{
+    height: 180px;
+    display: block;
+    margin: auto;
+}
+
+/* Clients section */
+
+#client-section,#contact{
+    background: url('clients-background.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 20px;
+}
+
+#clients img{
+    height: 100px;
+}
+
+/* Contact Section */
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-box input,#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin: 0.3rem;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px ;
+}
+
+#finalsubmit{
+    cursor: pointer;
+}
+
+.submitf{
+    width: 30%;
+    margin: auto;
+}
+/* Utility classes */
+
+.h-primary{
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.h-secondary{
+    font-size: 1.3rem;
+    padding: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.btn{
+    padding: 5px 16px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
