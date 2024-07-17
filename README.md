@@ -1,29 +1,19 @@
-# 🍽️ OneClickEats.com
+# 🍽 OneClickEats.com
 
 Welcome to OneClickEats, your go-to platform for discovering delicious meals delivered right to your door. Our easy-to-use service offers a variety of cuisines, fast delivery, and seamless ordering. Join our community of happy customers today!
 
-## 📋 Table of Contents
-
-- [🌐 Demo](#demo)
-- [✨ Features](#features)
-- [⚙️ Installation](#installation)
-- [🚀 Usage](#usage)
-- [🤝 Contributing](#contributing)
-- [📄 License](#license)
-- [📞 Contact](#contact)
-
-## 🌐 Demo
+##  Demo
 
 You can view the live site [here](https://manikiran949.github.io/food-delivery-website/).
 
-## ✨ Features
+##  Features
 
-- 🥡 **Food Ordering**: Explore menus, place your order, and enjoy meals delivered to your door.
-- 🍽️ **Food Catering**: Premium catering services for any event.
-- 📦 **Bulk Ordering**: Efficient service for large quantities, perfect for offices, parties, or events.
-- 📱 **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+-  **Food Ordering**: Explore menus, place your order, and enjoy meals delivered to your door.
+-  **Food Catering**: Premium catering services for any event.
+-  **Bulk Ordering**: Efficient service for large quantities, perfect for offices, parties, or events.
+-  **Responsive Design**: Works seamlessly on both desktop and mobile devices.
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
 
@@ -37,11 +27,11 @@ You can view the live site [here](https://manikiran949.github.io/food-delivery-w
     cd food-delivery-website
     ```
 
-## 🚀 Usage
+##  Usage
 
 1. Open `index.html` in your browser to view the site locally.
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -52,11 +42,11 @@ We welcome contributions! Please follow these steps:
 5. Push to the branch (`git push origin feature-branch`).
 6. Create a new Pull Request.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
+##  Contact
 
 For any inquiries or feedback, please reach out to us at manikiranbatchu6@gmail.com
 
